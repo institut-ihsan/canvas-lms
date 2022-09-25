@@ -17638,13 +17638,13 @@ fr:
         body: "Vous avez été sollicité pour effectuer la révision du travail de %{reviewee}. Suivez le lien ci-dessous pour effectuer cette révision."
     pseudonym_registration: 
       email: 
-        body: "Vous avez été enregistré pour un compte Canvas sur %{account}. Avant de vous connecter pour utiliser Canvas, vous devez terminer le processus de configuration."
+        body: "Assalam Wa'Aleykum. Nous vous avons créé un compte un compte sur la plateforme d'enseignement de l'institut Ihsan, Avant de pouvoir vous connecter et consulter les cours, vous devez terminer la configuration."
         html: 
-          body: "Nous vous avons créé un compte Canvas sur %{account} ! Avant de pouvoir vous connecter et utiliser Canvas, vous devez terminer la configuration."
+          body: "Assalam Wa'Aleykum. Nous vous avons créé un compte un compte sur la plateforme d'enseignement de l'institut Ihsan, Avant de pouvoir vous connecter et consulter les cours, vous devez terminer la configuration."
           link: "Cliquez ici pour terminer l’enregistrement"
-          subject: "Terminer l’enregistrement : Canvas"
+          subject: "Terminer l’enregistrement : Institut Ihsan"
         link_message: "Pour terminer le processus d’enregistrement, consultez l’URL suivante :"
-        subject: "Terminer l’enregistrement : Canvas"
+        subject: "Terminer l’enregistrement : Institut Ihsan"
       sms: 
         body: "Vous possédez maintenant le compte Canvas %{account} ! Afin de pouvoir vous connecter et commencer à utiliser Canvas, vous devez terminer le processus de configuration."
         link: "Cliquez sur l'URL suivante pour terminer le processus d'inscription : %{link}"
