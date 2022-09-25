@@ -11,10 +11,12 @@
 
 set -e
 
+. /home/ubuntu/.asdf/asdf.sh
+
 # drop privs if necessary
 if [ "$(id -u)" == "0" ]; then
   exec su $(stat -c %U $(dirname $(readlink -f $0))/../config/environment.rb) -c "/bin/bash $0 $@"
-  exit -1;
+  exit -1
 fi
 
 # switch to app root
